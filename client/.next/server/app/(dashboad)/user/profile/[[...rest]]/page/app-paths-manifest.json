@@ -1,0 +1,3 @@
+{
+  "/(dashboad)/user/profile/[[...rest]]/page": "app/(dashboad)/user/profile/[[...rest]]/page.js"
+}

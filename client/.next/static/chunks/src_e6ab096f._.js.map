@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/al_habib/Codes/practice/skill-nest/client/src/components/Loading.tsx"],"sourcesContent":["/** @format */\n\nimport { Loader2 } from \"lucide-react\";\nimport React from \"react\";\n\nfunction Loading() {\n    return (\n        <div className=\"fixed inset-0 flex gap-2 items-center justify-center bg-background/50\">\n            <Loader2 className=\"w-6 h-6 animate-spin text-primary-700\" />\n            <span className=\"text-sm font-medium text-primary-700\">\n                Loading...\n            </span>\n        </div>\n    );\n}\n\nexport default Loading;\n"],"names":[],"mappings":"AAAA,YAAY;;;;AAEZ;;;AAGA,SAAS;IACL,qBACI,6LAAC;QAAI,WAAU;;0BACX,6LAAC,oNAAA,CAAA,UAAO;gBAAC,WAAU;;;;;;0BACnB,6LAAC;gBAAK,WAAU;0BAAuC;;;;;;;;;;;;AAKnE;KATS;uCAWM","debugId":null}}]
+}

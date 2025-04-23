@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file:///home/al_habib/Codes/practice/skill-nest/client/src/app/%28dashboad%29/user/courses/page.tsx"],"sourcesContent":["/** @format */\n\nimport React from \"react\";\n\nconst UserCoursesPage = () => {\n    return (\n        <div className=\"text-3xl h-min-screen w-full text-center  item-center justify-center\">\n            UserCoursesPage;\n        </div>\n    );\n};\n\nexport default UserCoursesPage;\n"],"names":[],"mappings":"AAAA,YAAY;;;;;AAIZ,MAAM,kBAAkB;IACpB,qBACI,8OAAC;QAAI,WAAU;kBAAuE;;;;;;AAI9F;uCAEe","debugId":null}}]
+}

@@ -1,0 +1,9 @@
+{
+  "/(dashboad)/user/courses/[courseId]/chapters/[chapterId]/page": "app/(dashboad)/user/courses/[courseId]/chapters/[chapterId]/page.js",
+  "/(dashboad)/user/courses/page": "app/(dashboad)/user/courses/page.js",
+  "/(nondashboard)/checkout/page": "app/(nondashboard)/checkout/page.js",
+  "/(nondashboard)/search/page": "app/(nondashboard)/search/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

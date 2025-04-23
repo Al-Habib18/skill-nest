@@ -1,0 +1,27 @@
+{
+  "pages": {
+    "/(dashboad)/user/settings/page": [
+      "static/chunks/node_modules_next_dist_1a6ee436._.js",
+      "static/chunks/src_app_favicon_ico_mjs_8a7a8fdc._.js",
+      "static/chunks/[root-of-the-server]__8ebb6d4b._.css",
+      "static/chunks/node_modules_@clerk_nextjs_dist_esm_app-router_aa741008._.js",
+      "static/chunks/node_modules_7d9321a4._.js",
+      "static/chunks/src_c7e92b1f._.js",
+      "static/chunks/src_app_layout_tsx_c0237562._.js",
+      "static/chunks/src_86e43269._.js",
+      "static/chunks/node_modules_1d354e3f._.js",
+      "static/chunks/src_app_(dashboad)_layout_tsx_35ca0b60._.js",
+      "static/chunks/node_modules_b1e4ceb0._.js",
+      "static/chunks/src_4a4083f8._.js",
+      "static/chunks/node_modules_6d778cfe._.css",
+      "static/chunks/src_app_(dashboad)_user_settings_page_tsx_cc7dc0d5._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
+      "static/chunks/node_modules_next_dist_2ecbf5fa._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_93808211._.js"
+    ]
+  }
+}

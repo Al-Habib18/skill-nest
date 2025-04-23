@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/al_habib/Codes/practice/skill-nest/client/src/app/%28auth%29/layout.tsx"],"sourcesContent":["/** @format */\n\nimport React from \"react\";\n\nconst layout = ({ children }: { children: React.ReactNode }) => {\n    return (\n        <div className=\" h-screen w-full bg-gray-950\">\n            <main className=\" w-full flex h-full justify-center items-center\">\n                {children}\n            </main>\n        </div>\n    );\n};\n\nexport default layout;\n"],"names":[],"mappings":"AAAA,YAAY;;;;;AAIZ,MAAM,SAAS,CAAC,EAAE,QAAQ,EAAiC;IACvD,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAK,WAAU;sBACX;;;;;;;;;;;AAIjB;uCAEe","debugId":null}}]
+}

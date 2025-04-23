@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///home/al_habib/Codes/practice/skill-nest/client/src/hooks/useCarousel.ts"],"sourcesContent":["import { useState, useEffect } from \"react\";\n\ninterface UseCarouselProps {\n  totalImages: number;\n  interval?: number;\n}\n\nexport const useCarousel = ({\n  totalImages,\n  interval = 5000,\n}: UseCarouselProps) => {\n  const [currentImage, setCurrentImage] = useState(0);\n\n  useEffect(() => {\n    const timer = setInterval(() => {\n      setCurrentImage((prev) => (prev + 1) % totalImages);\n    }, interval);\n\n    return () => clearInterval(timer);\n  }, [totalImages, interval]);\n\n  return currentImage;\n};\n"],"names":[],"mappings":";;;AAAA;;AAOO,MAAM,cAAc,CAAC,EAC1B,WAAW,EACX,WAAW,IAAI,EACE;IACjB,MAAM,CAAC,cAAc,gBAAgB,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;IAEjD,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,MAAM,QAAQ,YAAY;YACxB,gBAAgB,CAAC,OAAS,CAAC,OAAO,CAAC,IAAI;QACzC,GAAG;QAEH,OAAO,IAAM,cAAc;IAC7B,GAAG;QAAC;QAAa;KAAS;IAE1B,OAAO;AACT","debugId":null}}]
+}
