@@ -1,5 +1,5 @@
 #Use the AWS lamda Node.js 20 base image
-FROM public.ecr.aws/lambda/nodejs:20
+FROM public.ecr.aws/lambda/nodejs:20 AS build
 
 # Set the working directory to /App
 WORKDIR /app
@@ -20,6 +20,9 @@ RUN npm run build
 RUN npm prune --production 
 
 # Use a second stage to prepare the production image
+FROM public.ecr.aws/lambda/nodejs:20
+
+# Set the working directory 
 WORKDIR ${LAMBDA_TASK_ROOT}
 
 # Copy the built javascript files  adn node_modules from the previous stage
