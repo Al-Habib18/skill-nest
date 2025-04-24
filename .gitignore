@@ -45,9 +45,6 @@ Thumbs.db
 # Coverage
 coverage/
 
-# Docker
-.dockerignore
-
 # PM2 logs
 pids
 *.pid
