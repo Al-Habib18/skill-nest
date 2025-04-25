@@ -2,6 +2,23 @@
 
 version: "3.8"
 services:
+    app:
+        build:
+            context: ./server
+            dockerfile: Dockerfile.dev
+        container_name: skill-nest-server
+        ports:
+            - "8001:8001"
+        environment:
+            NODE_ENV: "development"
+
+        depends_on:
+            - dynamodb-local
+
+        volumes:
+            - ./app:/app
+        command: npm run dev
+
     dynamodb-local:
         command: "-jar DynamoDBLocal.jar -sharedDb -dbPath ./data"
         image: "amazon/dynamodb-local:latest"
@@ -12,6 +29,4 @@ services:
             - "./docker/dynamodb:/home/dynamodblocal/data"
         working_dir: /home/dynamodblocal
         environment:
-            AWS_ACCESS_KEY_ID: "AKIAQ6YDAZZVOP7EIMGY"
-            AWS_SECRET_ACCESS_KEY: "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"
             REGION: "ap-south-1"

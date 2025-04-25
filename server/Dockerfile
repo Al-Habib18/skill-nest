@@ -4,11 +4,17 @@ FROM public.ecr.aws/lambda/nodejs:20 AS build
 # Set the working directory to /App
 WORKDIR /app
 
+# Set development mode so devDependencies are included
+ENV NODE_ENV=development
+
 # Copy package*.json and package-lock.json
 COPY package*.json ./
 
 # Install dependencies
 RUN npm install
+
+# Check if rimraf and cpx are installed correctly
+RUN ls node_modules/.bin && node_modules/.bin/rimraf --version
 
 # Copy the current directory contents into the container at /App
 COPY . .
